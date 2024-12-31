@@ -18,7 +18,7 @@
         </nav>
 
         <section id="home" class="hero">
-            <h1>Welcome to MediConnect</h1>
+            <span id="element">Welcome to MediConnect</span>
             <p>Your trusted healthcare companion</p>
             <div class="login-options">
                 <button onclick="location.href='user-login.html'" class="btn">User Login</button>
@@ -37,5 +37,23 @@
             </div>
         </section>
     </div>
+      <!-- Element to contain animated typing -->
+  
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Welcome to MediConnect'],
+      typeSpeed: 75,
+      loop: true,
+      startDelay: 500,
+      backSpeed : 30,
+      showCursor: false,
+    });
+  </script>
+</body>
 </body>
 </html>
