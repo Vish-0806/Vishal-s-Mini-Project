@@ -221,3 +221,6 @@ input, select, textarea {
     height: 400px;
     border-radius: var(--border-radius);
 }
+#element{
+    font-size: 2rem;
+}
